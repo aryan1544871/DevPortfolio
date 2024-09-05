@@ -18,6 +18,37 @@ export default function Greeting() {
     <Fade bottom duration={1000} distance="40px">
       <div className="greet-main" id="greeting">
         <div className="greeting-main">
+          <div className="greeting-image-div">
+          <img
+  className="responsive-image"
+  alt="Aryan's Image"
+  src={require("../../assets/images/PortfolioImg.png")}
+/>
+
+{/* CSS to control the image size */}
+<style jsx>{`
+  .responsive-image {
+    border-radius: 50%;
+    opacity: 0.95;
+    border: 0.5px solid white;
+    width: 400px;
+    height: 500px;
+    max-width: 400px; /* Default for larger screens */
+  }
+
+  @media (max-width: 640px) {
+    .responsive-image {
+      max-width: 300px; /* Smaller size for mobile */
+      height: 100px;
+      width: 300px;
+      margin-left:20px;
+      margin-top:20px; /* Maintain aspect ratio */
+    }
+  }
+`}</style>
+
+
+          </div>
           <div className="greeting-text-div">
             <div>
               <h1
