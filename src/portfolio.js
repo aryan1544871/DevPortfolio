@@ -189,7 +189,7 @@ const workExperiences = {
     {
       role: "Analyst",
       company: "Deloitte",
-      companylogo: require("./assets/images/DeloitteLogo.png"),
+      companylogo: require("./assets/images/DeloitteLogoNew.jpg"),
       date: "Sept 2022 – Present",
       desc: "Analyst, having experience of three projects",
       descBullets: [
