@@ -172,6 +172,11 @@ const techStack = {
       Stack: "Bootstrap",
       progressPercentage: "80%"
     },
+    {
+      Stack: "Python",
+      progressPercentage: "90%"
+    },
+
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
