@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DevPortfolio/static/css/main.838a84f9.css",
-    "main.js": "/DevPortfolio/static/js/main.a8b400f8.js",
+    "main.js": "/DevPortfolio/static/js/main.aefc75ba.js",
     "static/css/64.bba8fa55.chunk.css": "/DevPortfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/DevPortfolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/DevPortfolio/static/css/769.b3cbb36b.chunk.css",
@@ -12,11 +12,9 @@
     "static/media/MNIT-Logo.png": "/DevPortfolio/static/media/MNIT-Logo.7e2009fc438056fd8057.png",
     "static/media/PillarsSchool.webp": "/DevPortfolio/static/media/PillarsSchool.cc7cc6814e933456b3ed.webp",
     "static/media/contactMailDark.svg": "/DevPortfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
-    "static/media/quoraLogo.png": "/DevPortfolio/static/media/quoraLogo.85eb29f4d52320c8ed99.png",
     "static/media/developerActivity.svg": "/DevPortfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/googleAssistantLogo.webp": "/DevPortfolio/static/media/googleAssistantLogo.f720c71652579588524a.webp",
-    "static/media/airbnbLogo.png": "/DevPortfolio/static/media/airbnbLogo.e8497507db673acd3991.png",
-    "static/media/facebookLogo.png": "/DevPortfolio/static/media/facebookLogo.f46d68b24e9b4f73ee8b.png",
+    "static/media/DeloitteLogo.png": "/DevPortfolio/static/media/DeloitteLogo.052870018f25aa36ebcd.png",
     "static/media/codeInLogo.webp": "/DevPortfolio/static/media/codeInLogo.e41a71d512efeda2a55c.webp",
     "static/media/skill.svg": "/DevPortfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/resume.pdf": "/DevPortfolio/static/media/resume.f0f733dd3cd732b39262.pdf",
@@ -26,7 +24,7 @@
     "index.html": "/DevPortfolio/index.html",
     "static/media/talksCardBack.svg": "/DevPortfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.838a84f9.css.map": "/DevPortfolio/static/css/main.838a84f9.css.map",
-    "main.a8b400f8.js.map": "/DevPortfolio/static/js/main.a8b400f8.js.map",
+    "main.aefc75ba.js.map": "/DevPortfolio/static/js/main.aefc75ba.js.map",
     "64.bba8fa55.chunk.css.map": "/DevPortfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/DevPortfolio/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/DevPortfolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -34,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.838a84f9.css",
-    "static/js/main.a8b400f8.js"
+    "static/js/main.aefc75ba.js"
   ]
 }
