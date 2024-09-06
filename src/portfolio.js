@@ -23,7 +23,7 @@ const greeting = {
   username: "Aryan Kushwaha",
   title: "Hi all, I'm Aryan",
   subTitle: emoji(
-    "Tech enthusiast, currently working in deloitte with experience of around two years, well versed with various technologies."
+    "Tech enthusiast, currently working in Deloitte with experience of around two years, well versed with various technologies."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,9 +33,10 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
+  linkedin: "https://www.linkedin.com/in/aryan-kushwaha-62b871165",
   github: "https://github.com/aryan1544871",
-  linkedin: "www.linkedin.com/in/aryan-kushwaha-62b871165",
   gmail: "aryan.mnitj@gmail.com",
+  instagram: "https://www.instagram.com/aryankushwaha173?utm_source=qr&igsh=MXI0NGc0MjFnY2g1",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -45,14 +46,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Analyst, having interest in both data and programming",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Configuration and Customization of Power Apps "
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡Data analysis using PowerBI, SSRS, SQL-Server"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Extending the Power Platform Capabilities using PowerApps Component Framework(PCF), Custom Connectors"
     )
   ],
 
@@ -60,6 +61,10 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "Power Platform",
+      fontAwesomeClassname: "fab fa-microsoft"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -69,8 +74,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "azure",
+      fontAwesomeClassname: "fab fa-microsoft"
     },
     {
       skillName: "JavaScript",
@@ -85,10 +90,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
@@ -97,21 +98,9 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -122,23 +111,18 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "NIT Jaipur",
+      logo: require("./assets/images/MNIT-Logo.png"),
+      subHeader: "Bachelor of Technology",
+      duration: "2018 - 2022",
+      desc: "CGPA: 9",
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "The Pillar's, Gorakhpur",
+      logo: require("./assets/images/PillarsSchool.webp"),
+      subHeader: "Intermediate | HighSchool",
+      duration: "2015 - 2017 | 2013 - 2015",
+      desc: "93.2 % | 10 CGPA",
     }
   ]
 };
@@ -149,17 +133,45 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "PowerApps", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "PowerBI",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
+      Stack: "SQL",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "C#",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Javascript",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "PowerPages",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "SSRS",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "React",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Azure",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Bootstrap",
+      progressPercentage: "80%"
+    },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
