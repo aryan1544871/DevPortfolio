@@ -119,7 +119,7 @@ const educationInfo = {
     },
     {
       schoolName: "The Pillar's, Gorakhpur",
-      logo: require("./assets/images/PillarsSchool.webp"),
+      logo: require("./assets/images/The Pillars.jpg"),
       subHeader: "Intermediate | HighSchool",
       duration: "2015 - 2017 | 2013 - 2015",
       desc: "93.2 % | 10 CGPA",
