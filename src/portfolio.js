@@ -115,7 +115,7 @@ const educationInfo = {
       logo: require("./assets/images/MNIT-Logo.png"),
       subHeader: "Bachelor of Technology",
       duration: "2018 - 2022",
-      desc: "CGPA: 9",
+      desc: "CGPA : 9",
     },
     {
       schoolName: "The Pillar's, Gorakhpur",
