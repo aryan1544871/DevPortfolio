@@ -1,0 +1,58 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; // Space between fields
+}
+
+label {
+    font-weight: bold; // Make the label bold
+    margin-bottom: 5px; // Space between label and input
+}
+
+input {
+    padding: 20px; // Add some padding for better appearance
+    font-size: 20px; // Set font size to match the label
+    border: 1px solid #ccc; // Light border
+    border-radius: 4px; // Rounded corners
+    width: 100%; // Make inputs full width
+    box-sizing: border-box; // Include padding in width
+}
+
+input::placeholder {
+    color: #aaa; // Lighter color for placeholder
+    font-style: italic; // Italic style for differentiation
+}
+
+input:focus {
+    border-color: #007bff; // Change border color on focus
+    outline: none; // Remove default outline
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); // Add shadow for focus indication
+}
+
+.submit {
+    padding-left : 30px;
+    padding-right : 30px;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    font-size: 16px;
+    cursor: pointer; // Change cursor to pointer
+    border: none; // Remove default border
+    background-color: #007bff; // Button color
+    color: white; // Text color
+    border-radius: 4px;
+    max-width: 400px; // Max width for button
+    transition: background-color 0.3s; // Smooth transition on background color
+    margin : 0 auto;
+}
+
+.submit:hover {
+    background-color: #0056b3; // Darker button on hover
+}
+
+.loader {
+    text-align: center;
+    font-size: 18px;
+    margin: 40px 0; // Space above and below
+}
+
+
