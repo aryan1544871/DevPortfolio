@@ -23,7 +23,7 @@ const greeting = {
   username: "Aryan Kushwaha",
   title: "Hi all, I'm Aryan",
   subTitle: emoji(
-    "Tech enthusiast, currently working in Deloitte with experience of around two years, well versed with various technologies."
+    "Tech enthusiast, currently working in Deloitte with experience of around three years, well versed with various technologies."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -46,7 +46,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Analyst, having interest in both data and programming",
+  subTitle: "Consultant, having interest in both data and programming",
   skills: [
     emoji(
       "⚡ Configuration and Customization of Power Apps "
@@ -119,7 +119,7 @@ const educationInfo = {
     },
     {
       schoolName: "The Pillar's, Gorakhpur",
-      logo: require("./assets/images/The Pillars.jpg"),
+      logo: require("./assets/images/The Pillars.jpeg"),
       subHeader: "Intermediate | HighSchool",
       duration: "2015 - 2017 | 2013 - 2015",
       desc: "93.2 % | 10 CGPA",
@@ -146,7 +146,7 @@ const techStack = {
     },
     {
       Stack: "C#",
-      progressPercentage: "80%"
+      progressPercentage: "90%"
     },
     {
       Stack: "Javascript",
@@ -190,12 +190,21 @@ const workExperiences = {
       role: "Analyst",
       company: "Deloitte",
       companylogo: require("./assets/images/DeloitteLogoNew.jpg"),
-      date: "Sept 2022 – Present",
-      desc: "Analyst, having experience of three projects",
+      date: "Sept 2022 – April 2025",
+      /*desc: "Analyst, having experience of three projects",*/
       descBullets: [
-        "Project-1 is related to configuration, customization of Power Apps, Power Automate, building various components using javascript and C#, also building paginated reports using Power BI Report Builder.",
-        "Project-2 is related to SQL Server Reporting Services(SSRS), along with SQL Server Integration Services, includes building reports, data cleaning, data analysis and data migration using ETL process.",
-        "Project-3 is mainly based on PowerApps, also includes cloud technologies like Microsoft Azure, custom controls building using PowerApps Component Frameworks, building custom html pages, with typescript, javascript, react, c#, programming languages..."
+        "Project-I ➝ Related to configuration, customization of Power Apps, Power Automate, building various components using javascript and C#, also building paginated reports using Power BI Report Builder.",
+        "Project-II ➝ Related to SQL Server Reporting Services(SSRS), along with SQL Server Integration Services, includes building reports, data cleaning, data analysis and data migration using ETL process.",
+      ]
+    },
+    {
+      role: "Consultant",
+      company: "Deloitte",
+      companylogo: require("./assets/images/DeloitteLogoNew.jpg"),
+      date: "May 2025 – Present",
+      /*desc: "Consultant",*/
+      descBullets: [
+        "Project-III ➝ Based on PowerApps, also includes cloud technologies like Microsoft Azure, custom controls building using PowerApps Component Frameworks, building custom html pages, with typescript, javascript, react, c#, programming languages..."
       ]
     },
   ]
