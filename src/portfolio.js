@@ -227,7 +227,7 @@ const bigProjects = {
     {
       image: require("./assets/images/AI_Chatbot_img.jpg"),
       projectName: "AI Chatbot",
-      projectDesc: "OpenAI's GPT-3 model based AI Chatbot, which can be used to get answers to your queries, can be used as a virtual assistant, tutor and much more.",
+      projectDesc: "Meta: Llama 3.3 model based AI Chatbot, which can be used to get answers to your queries, can be used as a virtual assistant, tutor and much more.",
       footerLink: [
         {
           name: "Visit Website",
