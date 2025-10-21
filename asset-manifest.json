@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0a7047a7.css",
-    "main.js": "/static/js/main.8b28caa1.js",
+    "main.js": "/static/js/main.d921012d.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -9,7 +9,7 @@
     "static/media/Aryan'sResume.pdf": "/static/media/Aryan'sResume.3121a4b2a2a4f1b8bfb4.pdf",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/PortfolioImg.png": "/static/media/PortfolioImg.375090c5f397b84c88db.png",
-    "static/media/AI_Chatbot_img.jpg": "/static/media/AI_Chatbot_img.283c21a44890d4614477.jpg",
+    "static/media/AI_Chatbot_img.jpg": "/static/media/AI_Chatbot_img.821cbb97addb118ec868.jpg",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/MNIT-Logo.png": "/static/media/MNIT-Logo.7e2009fc438056fd8057.png",
     "static/media/The Pillars.jpeg": "/static/media/The Pillars.7770e87ffefc02ac81b2.jpeg",
@@ -22,7 +22,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.0a7047a7.css.map": "/static/css/main.0a7047a7.css.map",
-    "main.8b28caa1.js.map": "/static/js/main.8b28caa1.js.map",
+    "main.d921012d.js.map": "/static/js/main.d921012d.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.0a7047a7.css",
-    "static/js/main.8b28caa1.js"
+    "static/js/main.d921012d.js"
   ]
 }
