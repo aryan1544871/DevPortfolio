@@ -23,7 +23,7 @@ export default function Messages() {
 
         setLoading(true); // Set loading to true when starting the fetch
         try {
-            const res = await fetch('https://portfolio-pcep.onrender.com/data/message', data);
+            const res = await fetch('https://backend-dev-portfolio-omega.vercel.app/data/message', data);
             if (res.ok) {
                 setUsername("");
                 setEmail("");
