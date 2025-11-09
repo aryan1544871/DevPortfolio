@@ -225,13 +225,25 @@ const bigProjects = {
   subtitle: "",
   projects: [
     {
-      image: require("./assets/images/AI_Chatbot_img.jpg"),
+      image: require("./assets/images/chat-bot.webp"),
       projectName: "AI Chatbot",
       projectDesc: "Meta: Llama 3.3 model based AI Chatbot, which can be used to get answers to your queries, can be used as a virtual assistant, tutor and much more.",
       footerLink: [
         {
           name: "Visit Website",
           url: "https://aryan1544871.github.io/AI-Chatbot/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+     {
+      image: require("./assets/images/chat-icon.png"),
+      projectName: "Chat App",
+      projectDesc: "Chat app based on react and express, for realtime chatting and more.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://chat-app-y9m9.onrender.com/"
         }
         //  you can add extra buttons here.
       ]
