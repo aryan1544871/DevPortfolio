@@ -225,7 +225,7 @@ const bigProjects = {
   subtitle: "",
   projects: [
     {
-      image: require("./assets/images/chat-bot.webp"),
+      image: require("./assets/images/ai-chatbot-30Nov.jpg"),
       projectName: "AI Chatbot",
       projectDesc: "Meta: Llama 3.3 model based AI Chatbot, which can be used to get answers to your queries, can be used as a virtual assistant, tutor and much more.",
       footerLink: [
@@ -237,13 +237,25 @@ const bigProjects = {
       ]
     },
      {
-      image: require("./assets/images/chat-icon.png"),
+      image: require("./assets/images/chat-app30Nov.webp"),
       projectName: "Chat App",
       projectDesc: "Chat app based on react and express, for realtime chatting and more.",
       footerLink: [
         {
           name: "Visit Website",
           url: "https://chat-app-y9m9.onrender.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+     {
+      image: require("./assets/images/movie-booking-app.jpg"),
+      projectName: "Movie Booking App",
+      projectDesc: "An app where you can find and book latest movies running in theaters",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://book-my-show-nine-omega.vercel.app/"
         }
         //  you can add extra buttons here.
       ]
