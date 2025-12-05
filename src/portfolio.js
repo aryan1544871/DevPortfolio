@@ -260,6 +260,18 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
+    {
+      image: require("./assets/images/Netflix.webp"),
+      projectName: "Netflix Clone",
+      projectDesc: "Netflix Clone build using react with data fetching from TMDB API",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://netflix-clone-psi-red-57.vercel.app/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
     
   ],
   display: true // Set false to hide this section, defaults to true
